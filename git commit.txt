@@ -1,0 +1,7 @@
+git status
+
+git add .
+
+git commit -m "ypur comment"
+
+git push -u origin master
