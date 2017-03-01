@@ -1,9 +1,9 @@
 <?php
 
-$domain = 'EFHC-DC-12.efhc-2000.eriefamilyhealth.org';
-$username = 'LDAP_User';
-$password = 'c0nn3ct-ldap';
-$ldapconfig['host'] = '10.6.0.71';
+$domain = 'XXXXXXXXXXXXXXXXXXXXXXXXX';
+$username = 'XXAP_UXXX';
+$password = 'XXXXXXXXXXX';
+$ldapconfig['host'] = 'XXXXXXXXX';
 $ldapconfig['port'] = 389;
 $ldapconfig['basedn'] = 'dc=domain,dc=com';
 
