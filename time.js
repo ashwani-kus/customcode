@@ -18,3 +18,17 @@ var d2 = new Date(date_end);
                                 console.log(d1 !== d2);  // prints true  (wrong!)
                                 console.log(d1.getTime() === d2.getTime()); // prints true (correct)
                                 console.log(d1 > d2);
+
+/*cache clear reload */
+$.ajax({
+        url: window.location.href,
+        headers: {
+            "Pragma": "no-cache",
+            "Expires": -1,
+            "Cache-Control": "no-cache"
+        }
+    }).done(function () {
+        window.location.reload(true);
+    });
+
+/*cache clear reload end */
